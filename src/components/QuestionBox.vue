@@ -1,125 +1,46 @@
 <template>
-  <div class="question-box-container">
+  <div style="margin-top:30">
     <b-jumbotron>
       <template slot="lead">
-        {{ currentQuestion.question }}
+        <h1 class="display-4 text-center">{{ wordArray[answer].word.french }}</h1>
       </template>
 
       <hr class="my-4" />
-
-      <b-list-group>
-        <b-list-group-item
-          v-for="(answer, index) in shuffledAnswers"
-          :key="index"
-          @click.prevent="selectAnswer(index)"
-          :class="answerClass(index)"
-        >
-          {{ answer }}
-        </b-list-group-item>
-      </b-list-group>
-
-      <b-button
-        variant="primary"
-        @click="submitAnswer"
-        :disabled="selectedIndex === null || answered"
-      >
-        Submit
-      </b-button>
-      <b-button @click="next" variant="success">
-        Next
-      </b-button>
+      <b-container>
+        <b-row>
+          <b-col v-for="(item, index) in wordArray" :key="index">
+            <b-button @click="checkAnswer(index)" block pill>{{ item.word.english }}</b-button>
+          </b-col>
+        </b-row>
+      </b-container>
     </b-jumbotron>
   </div>
 </template>
 
 <script>
 export default {
-  props: [
-      'currentQuestion',
-      'next',
-      'increment'
-  ],
+  props: ["wordArray"],
+  watch: {
+    wordArray: function() {
+      this.answer = this.getRandomNum(0, 3);
+    }
+  },
   data: function() {
     return {
-      selectedIndex: null,
-      correctIndex: null,
-      shuffledAnswers: [],
-      answered: false
-    }
-  },
-  computed: {
-    answers() {
-      // this function is no longer used in finished code
-      // it is replaced by the watch function below and the
-      // shuffleAnswers method
-      let answers = [...this.currentQuestion.incorrect_answers]
-      answers.push(this.currentQuestion.correct_answer)
-      return answers
-    }
-  },
-  watch: {
-    currentQuestion: {
-      immediate: true,
-      handler() {
-        this.selectedIndex = null
-        this.answered = false
-        this.shuffleAnswers()
-      }
-    }
+      answer: 0
+    };
   },
   methods: {
-    selectAnswer(index) {
-      this.selectedIndex = index
+    getRandomNum(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     },
-    submitAnswer() {
-      let isCorrect = false
-      if (this.selectedIndex === this.correctIndex) {
-        isCorrect = true
+    checkAnswer(index) {
+      if (index == this.answer) {
+        this.$emit("result", true);
+      } else {
+        this.$emit("result", false);
       }
-      this.answered = true
-      this.increment(isCorrect)
-    },
-    shuffleAnswers() {
-      let answers = [...this.currentQuestion.incorrect_answers, this.currentQuestion.correct_answer]
-      this.shuffledAnswers = answers
-      this.correctIndex = this.shuffledAnswers.indexOf(this.currentQuestion.correct_answer)
-    },
-    answerClass(index) {
-      let answerClass = ''
-      if (!this.answered && this.selectedIndex === index) {
-        answerClass = 'selected'
-      } else if (this.answered && this.correctIndex === index) {
-        answerClass = 'correct'
-      } else if (this.answered &&
-        this.selectedIndex === index &&
-        this.correctIndex !== index
-      ) {
-        answerClass = 'incorrect'
-      }
-      return answerClass
     }
   }
-}
+};
 </script>
-
-<style scoped>
-.list-group {
-  margin-bottom: 15px;
-}
-.list-group-item:hover {
-  background: #EEE;
-  cursor: pointer;
-}
-.btn {
-  margin: 0 5px;
-}
-.selected {
-  background-color: lightblue;
-}
-.correct {
-  background-color: lightgreen;
-}
-.incorrect {
-  background-color: red;
-}
-</style>
