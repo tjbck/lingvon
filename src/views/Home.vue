@@ -83,7 +83,7 @@ export default {
         this.streaks = 0;
       }
     },
-    getQuestionRange(days) {
+    getQuestionRange() {
       const dataLen = Object.keys(this.wordData).length;
 
       this.min = Math.ceil((dataLen / this.maxLevel) * (this.level - 1));
