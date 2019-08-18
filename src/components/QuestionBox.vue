@@ -17,11 +17,12 @@
       </b-container>
     </b-jumbotron>
 
-    <b-modal v-model="correct" centered title="👍 CORRECT 👍" ok-only>
+    <b-modal v-model="correct" centered title="👍 CORRECT 👍" ok-only v-if="correct">
       <p class="lead">Usage of <mark>{{ wordArray[answer].word.french }}</mark></p>
       <p><strong>FR) </strong>{{ wordArray[answer].wordUsage.french }} <br>
       <strong>EN) </strong>{{ wordArray[answer].wordUsage.english }}</p>
     </b-modal>
+
   </div>
 </template>
 
@@ -31,6 +32,11 @@ export default {
   watch: {
     wordArray: function() {
       this.answer = this.getRandomNum(0, 3);
+    },
+    correct: function(value){
+      if(!value){
+        this.emitTrue();
+      }
     }
   },
   data: function() {
@@ -43,12 +49,13 @@ export default {
     getRandomNum(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     },
+    emitTrue(){
+      this.$emit("result", true);
+    },
     checkAnswer(index) {
       let content = `${this.wordArray[index].word.english} is ${this.wordArray[index].word.french}`;
       if (index == this.answer) {
-        // this.makeToast('success','👍 CORRECT 👍',content)
         this.correct = true;
-        this.$emit("result", true);
       } else {
         this.makeToast("danger", "😓 WRONG 😓", content);
         this.$emit("result", false);
@@ -57,6 +64,7 @@ export default {
     makeToast(variant = null, title, content) {
       this.$bvToast.toast(content, {
         title: title,
+        allowHtml: true,
         toaster: "b-toaster-top-full",
         variant: variant,
         solid: true

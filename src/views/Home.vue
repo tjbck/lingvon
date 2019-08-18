@@ -57,7 +57,7 @@ export default {
       localStorage.getItem("streaks") == null
     ) {
       localStorage.setItem("level", "1");
-      localStorage.setItem("streaks", "1");
+      localStorage.setItem("streaks", "0");
     }
 
     this.level = parseInt(localStorage.getItem("level"));
