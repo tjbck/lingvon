@@ -26,9 +26,7 @@
           <b-row>
             <b-col>
               <b-input-group prepend="Level" :append="'' + (maxLevel)" class="mt-3">
-                <b-input-group-prepend is-text>
-                  1
-                </b-input-group-prepend>
+                <b-input-group-prepend is-text>1</b-input-group-prepend>
                 <b-form-input v-model="level" type="range" min="1" :max="maxLevel"></b-form-input>
               </b-input-group>
             </b-col>
@@ -120,6 +118,10 @@ export default {
 
       for (let i = 0; i < num; i++) {
         wordNum = this.getRandomNum(this.min, this.max);
+
+        while(this.wordArray.map(o => o.id).includes(wordNum)){
+          wordNum = this.getRandomNum(this.min, this.max);
+        }
 
         wordUsage = {
           french: "Sorry, No Data Available",
