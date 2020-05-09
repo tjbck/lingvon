@@ -1,0 +1,116 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>GRE Power Vocab</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="PrimaryID" opf:scheme="ISBN">978-1-101-88178-1</dc:identifier>
+		<dc:creator opf:file-as="Review, The Princeton" opf:role="aut">The Princeton Review</dc:creator>
+		<dc:publisher>Random House Children's Books</dc:publisher>
+		<dc:date opf:event="publication">2015-06-16</dc:date>
+		<dc:rights>Copyright © 2015 by TPR Education IP Holdings, LLC</dc:rights>
+		<meta content="cover-image" name="cover"/>
+	<description xmlns="http://purl.org/dc/elements/1.1/">&lt;b&gt;THE PRINCETON REVIEW GETS RESULTS! Ace the GRE verbal sections with &lt;b&gt;800+ words you need to know to excel.&lt;/b&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;i&gt;This eBook edition has been optimized for onscreen viewing with cross-linked quiz questions, answers, and explanations.&lt;br&gt;&lt;/i&gt;&lt;b&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;/b&gt;Improving  your vocabulary is one of the most important steps you can take to  enhance your GRE verbal score. The Princeton Review's &lt;i&gt;GRE Power Vocab&lt;/i&gt; is filled with useful definitions and study tips for over 800 words,  along with skills for decording unfamiliar ones. You'll also find  strateigies that help to liven up flashcards and boost memorization  techniques.&lt;br&gt;&lt;i&gt;&lt;br&gt;Everything You Need to Help Achieve a High Score.&lt;/i&gt;&lt;br&gt;&amp;bull; 900+ of the most frequently used vocab words to ensure that you work smarter, not harder&lt;br&gt;&amp;bull; Effective exercises and games deisgned to develop mnemonics and root awareness&lt;br&gt;&amp;bull; Secondarty definitions to help you avoid the test's tricks and...</description>
+</metadata>
+	<manifest>
+		<item href="Prin_9781101881781_epub_ncx_r1.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_cvi_r1.htm" id="cvi" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_tp_r1.htm" id="tp" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_cop_r1.htm" id="cop" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_ack_r1.htm" id="ack" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_toc_r1.htm" id="toc" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_itr_r1.htm" id="itr" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c01_r1.htm" id="c01" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c02_r1.htm" id="c02" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c03_r1.htm" id="c03" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04_r1.htm" id="c04" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04a_r1.htm" id="c04a" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04b_r1.htm" id="c04b" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04c_r1.htm" id="c04c" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04d_r1.htm" id="c04d" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04e_r1.htm" id="c04e" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04f_r1.htm" id="c04f" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04g_r1.htm" id="c04g" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04h_r1.htm" id="c04h" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04i_r1.htm" id="c04i" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04j_r1.htm" id="c04j" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04k_r1.htm" id="c04k" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04l_r1.htm" id="c04l" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04m_r1.htm" id="c04m" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04n_r1.htm" id="c04n" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04o_r1.htm" id="c04o" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04p_r1.htm" id="c04p" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04q_r1.htm" id="c04q" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04r_r1.htm" id="c04r" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04s_r1.htm" id="c04s" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04t_r1.htm" id="c04t" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04u_r1.htm" id="c04u" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04v_r1.htm" id="c04v" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04w_r1.htm" id="c04w" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c04z_r1.htm" id="c04z" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c05_r1.htm" id="c05" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c06_r1.htm" id="c06" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c07_r1.htm" id="c07" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c08_r1.htm" id="c08" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c09_r1.htm" id="c09" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c10_r1.htm" id="c10" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_c11_r1.htm" id="c11" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Prin_9781101881781_epub_css_r1.css" id="css" media-type="text/css"/>
+		<item href="OEBPS/images/Prin_9781101881781_epub_cvi_r1.jpg" id="cover-image" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Prin_9781101881781_epub_cvt_r1.jpg" id="fcvt" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Prin_9781101881781_epub_L01_r1.jpg" id="fL01" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Prin_9781101881781_epub_tp_r1.jpg" id="ftp" media-type="image/jpeg"/>
+		<item href="OEBPS/page-template.xpgt" id="page" media-type="application/vnd.adobe-page-template+xml"/>
+		<item href="OEBPS/fonts/CharisSILB.ttf" id="font1" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILBI.ttf" id="font2" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILI.ttf" id="font3" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILR.ttf" id="font4" media-type="application/x-font-ttf"/>
+	<item href="OEBPS/next-reads-html/next-reads.xhtml" id="next-reads_template" media-type="application/xhtml+xml"/><item href="OEBPS/next-reads-html/images/next-reads_logo.jpg" id="next-reads_image_1" media-type="image/jpeg"/><item href="OEBPS/next-reads-html/fonts/Fort-Book.otf" id="next-reads_font_1" media-type="application/vnd.ms-opentype"/><item href="OEBPS/next-reads-html/fonts/Shift-BoldItalic.otf" id="next-reads_font_2" media-type="application/vnd.ms-opentype"/><item href="OEBPS/next-reads-html/fonts/Shift-Light.otf" id="next-reads_font_3" media-type="application/vnd.ms-opentype"/></manifest>
+	<spine toc="ncx">
+		<itemref idref="cvi" linear="yes"/>
+		<itemref idref="tp" linear="yes"/>
+		<itemref idref="cop" linear="yes"/>
+		<itemref idref="ack" linear="yes"/>
+		<itemref idref="toc" linear="yes"/>
+		<itemref idref="itr" linear="yes"/>
+		<itemref idref="c01" linear="yes"/>
+		<itemref idref="c02" linear="yes"/>
+		<itemref idref="c03" linear="yes"/>
+		<itemref idref="c04" linear="yes"/>
+		<itemref idref="c04a" linear="yes"/>
+		<itemref idref="c04b" linear="yes"/>
+		<itemref idref="c04c" linear="yes"/>
+		<itemref idref="c04d" linear="yes"/>
+		<itemref idref="c04e" linear="yes"/>
+		<itemref idref="c04f" linear="yes"/>
+		<itemref idref="c04g" linear="yes"/>
+		<itemref idref="c04h" linear="yes"/>
+		<itemref idref="c04i" linear="yes"/>
+		<itemref idref="c04j" linear="yes"/>
+		<itemref idref="c04k" linear="yes"/>
+		<itemref idref="c04l" linear="yes"/>
+		<itemref idref="c04m" linear="yes"/>
+		<itemref idref="c04n" linear="yes"/>
+		<itemref idref="c04o" linear="yes"/>
+		<itemref idref="c04p" linear="yes"/>
+		<itemref idref="c04q" linear="yes"/>
+		<itemref idref="c04r" linear="yes"/>
+		<itemref idref="c04s" linear="yes"/>
+		<itemref idref="c04t" linear="yes"/>
+		<itemref idref="c04u" linear="yes"/>
+		<itemref idref="c04v" linear="yes"/>
+		<itemref idref="c04w" linear="yes"/>
+		<itemref idref="c04z" linear="yes"/>
+		<itemref idref="c05" linear="yes"/>
+		<itemref idref="c06" linear="yes"/>
+		<itemref idref="c07" linear="yes"/>
+		<itemref idref="c08" linear="yes"/>
+		<itemref idref="c09" linear="yes"/>
+		<itemref idref="c10" linear="yes"/>
+		<itemref idref="c11" linear="yes"/>
+	<itemref idref="next-reads_template" linear="yes"/></spine>
+	<guide>
+		<reference href="OEBPS/Prin_9781101881781_epub_tp_r1.htm" title="Start" type="start"/>
+		<reference href="OEBPS/Prin_9781101881781_epub_toc_r1.htm" title="Table of Contents" type="toc"/>
+		<reference href="OEBPS/Prin_9781101881781_epub_cvi_r1.htm" title="Cover" type="cover"/>
+		<reference href="OEBPS/Prin_9781101881781_epub_cop_r1.htm" title="Copyright" type="copyright-page"/>
+	</guide>
+</package>
